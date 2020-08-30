@@ -48,6 +48,14 @@ abstract class Humano {
         System.out.println(this.getNome() + ": Ich bin " + this.getHumor().getDescricao());
     }
     
+    public void Apresentacao()
+    {
+        System.out.println(this.getNome() + ": Guten Tag");
+    }
 
+    public void Despedida(Humano humano)
+    {
+        System.out.println(this.getNome() + ": Tschüss, tschüss auf wiedersehen " + humano.getNome());
+    }
 }
 
